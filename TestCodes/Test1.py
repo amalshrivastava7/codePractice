@@ -1,19 +1,10 @@
-def solve(A):
-    B = sorted(A)
+import numpy as np
 
-    diff = 0
-    set = False
+a = np.ones(10)
+c = np.zeros(5)
+d = np.append(a,c)
+print(type(a))
+print(a)
+print(d)
 
-    print(B)
-
-    for i in range(len(B)-1):
-        newdiff = A[i+1] - A[i]
-        print(newdiff)
-        if set and newdiff != diff:
-            return 0
-        else:
-            set = True
-            diff = newdiff
-    return 1
-
-print(solve([3,5,1]))
+print(d.tolist())
