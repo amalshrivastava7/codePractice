@@ -128,7 +128,7 @@ print(tweets_stem)
 
 
 
-from utils import process_tweet # Import the process_tweet function
+from codePractice.DeepLearning.utilsFunctions import process_tweet # Import the process_tweet function
 
 # choose the same tweet
 tweet = all_positive_tweets[2277]
