@@ -8,4 +8,5 @@ def GCD(A, B):
     return(GCD(b%a, a))
 
 
-print(GCD(12, 18))
+# print(GCD(199, 99))
+print(7 ^ 5)
